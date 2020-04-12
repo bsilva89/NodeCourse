@@ -1,6 +1,6 @@
 const http = require('http')
 
-const routes = require("./routeFile.js")
+const routes = require("./routeFile")
 
 const server = http.createServer(routes.handler)
 
