@@ -4,7 +4,7 @@ const pool = mysql.createPool({
     host: 'localhost',
     user: 'root', 
     database: 'node-complete',
-    password: 'bsilva89!'
+    password: 'X'
 })
 
 module.exports = pool.promise()
